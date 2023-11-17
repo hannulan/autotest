@@ -5,7 +5,7 @@ import pytest
 def test_factorial():
 	print("test function")
 	testres = 1*2*3*4*5;
-	assert factorial(5) == 2*testres
+	assert factorial(5) == testres
     #assert add('space', 'ship') == 'spaceship'
 
 # uncomment the following test in step 5
